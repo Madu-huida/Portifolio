@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Maria Huida - Desenvolvedora Full-Stack e estudante de Engenharia de Software." />
+  <title>Maria Huida | Portfólio</title>
+  <link rel="icon" type="image/svg+xml" href="imgs/cat.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar" aria-label="Navegação principal">
+    <a href="#overview" class="nav-item active"><img src="imgs/user.svg" alt="" class="ico ico-muted" /><span data-i18n="nav-about">Sobre</span></a>
+    <a href="#skills" class="nav-item"><img src="imgs/cpu.svg" alt="" class="ico ico-muted" /><span data-i18n="nav-skills">Ferramentas</span></a>
+    <a href="#projects" class="nav-item"><img src="imgs/sparkles.svg" alt="" class="ico ico-muted" /><span data-i18n="nav-projects">Projetos</span></a>
+    <a href="#contact" class="nav-item"><img src="imgs/mail.svg" alt="" class="ico ico-muted" /><span data-i18n="nav-contact">Contato</span></a>
+    <div class="nav-divider" aria-hidden="true"></div>
+    <label class="lang-switch" title="Alternar idioma (PT / EN)" aria-label="Alternar idioma entre Português e Inglês">
+      <span class="lang-code lang-pt">PT</span>
+      <input type="checkbox" id="lang-toggle" role="switch" aria-checked="false" aria-label="Idioma inglês" />
+      <span class="switch-track"><span class="switch-thumb"></span></span>
+      <span class="lang-code lang-en">EN</span>
+    </label>
+  </nav>
+
+  <main>
+
+    <!-- Sobre -->
+    <section id="overview" class="bento-grid">
+
+      <article class="glow-card bento-card intro-card">
+        <div>
+          <div class="row">
+            <span class="pill pill-green caps"><span class="dot"></span> <span data-i18n="hero-status">Disponível para Oportunidades</span></span>
+            <span class="pill muted"><img src="imgs/map-pin.svg" alt="" class="ico ico-muted" /> <span data-i18n="hero-location">Joinville, SC – Brasil</span></span>
+          </div>
+          <h1 class="title">Maria Eduarda <span class="highlight">Huida</span></h1>
+          <p class="subtitle muted" data-i18n="hero-subtitle">Desenvolvedora Full-Stack em formação com foco na construção de aplicações escaláveis, seguras e de alto desempenho.</p>
+          <div class="row">
+            <a href="#projects" class="btn btn-primary"><span data-i18n="hero-btn-projects">Ver Projetos</span> <img src="imgs/arrow-right.svg" alt="" class="ico" /></a>
+            <a href="#contact" class="btn btn-secondary" data-i18n="hero-btn-contact">Fale Comigo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="glow-card bento-card about-card">
+        <div>
+          <div class="card-head"><img src="imgs/sparkles.svg" alt="" class="ico" /><h3 data-i18n="about-title">Resumo &amp; Mindset</h3></div>
+          <p class="about-text" data-i18n="about-text">Alio a sólida fundamentação teórica da Engenharia de Software ao desenvolvimento prático de soluções reais. Possuo perfil autodidata, forte resiliência e facilidade para assimilar arquiteturas complexas e documentações globais.</p>
+        </div>
+        <div class="row">
+          <span class="tag highlight"><img src="imgs/check-circle.svg" alt="" class="ico" /> <span data-i18n="tag-self">Autogestão</span></span>
+          <span class="tag highlight"><img src="imgs/check-circle.svg" alt="" class="ico" /> <span data-i18n="tag-agile">Resolução Ágil</span></span>
+          <span class="tag highlight"><img src="imgs/check-circle.svg" alt="" class="ico" /> <span data-i18n="tag-comm">Comunicação Assertiva</span></span>
+        </div>
+      </article>
+
+      <article class="glow-card bento-card">
+        <div class="card-head"><img src="imgs/graduation-cap.svg" alt="" class="ico" /><h3 data-i18n="edu-title">Formação Acadêmica</h3></div>
+        <div>
+          <b data-i18n="edu-degree">Bacharelado em Engenharia de Software</b>
+          <p class="muted">Centro Universitário Católica de Santa Catarina</p>
+          <p class="highlight caps small" data-i18n="edu-period">2024 – Presente (Joinville, SC)</p>
+        </div>
+      </article>
+
+      <article class="glow-card bento-card">
+        <div class="card-head"><img src="imgs/languages.svg" alt="" class="ico" /><h3 data-i18n="lang-title">Comunicação Global</h3></div>
+        <div>
+          <div class="box-dark lang-box"><b data-i18n="lang-name">Inglês</b><span class="highlight caps" data-i18n="lang-level">Avançado / C1</span></div>
+          <p class="muted" data-i18n="lang-desc">Leitura e interpretação fluente de documentações técnicas, RFCs e participação em discussões internacionais.</p>
+        </div>
+      </article>
+
+      <article class="glow-card bento-card">
+        <div class="card-head"><h3>GitHub Stats</h3></div>
+        <div class="stats-display">
+          <div class="box-dark stat-box">
+            <img src="imgs/folder-git.svg" alt="" class="ico" />
+            <div><span id="github-repos" class="stat-number">15+</span><span class="muted caps small" data-i18n="stat-repos">Repositórios</span></div>
+          </div>
+          <div class="box-dark stat-box">
+            <img src="imgs/users.svg" alt="" class="ico" />
+            <div><span id="github-followers" class="stat-number">10+</span><span class="muted caps small" data-i18n="stat-followers">Seguidores</span></div>
+          </div>
+        </div>
+        <a href="https://github.com/Madu-huida" target="_blank" rel="noopener noreferrer" class="explore-btn highlight"><span data-i18n="stat-btn">Acessar @Madu-huida</span> <img src="imgs/arrow-right.svg" alt="" class="ico" /></a>
+      </article>
+
+    </section>
+
+    <!-- Ferramentas -->
+    <section id="skills">
+      <div class="section-head">
+        <h2 data-i18n="skills-title">Ferramentas &amp; <span class="highlight">Tecnologias</span></h2>
+        <p class="muted" data-i18n="skills-desc">Stack técnica consolidada através da Engenharia de Software e prática em projetos reais.</p>
+      </div>
+      <div class="tech-grid">
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/java.svg" alt="Java" /></div><div><b>Java</b><span class="highlight caps small">Backend</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/springboot.svg" alt="Spring Boot" /></div><div><b>Spring Boot</b><span class="highlight caps small">Backend</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/javascript.svg" alt="JavaScript" /></div><div><b>JavaScript</b><span class="highlight caps small" data-i18n="tech-lang">Linguagem</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/react.svg" alt="React" /></div><div><b>React</b><span class="highlight caps small">Frontend</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/nodejs.svg" alt="Node.js" /></div><div><b>Node.js</b><span class="highlight caps small">Backend</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/postgresql.svg" alt="PostgreSQL" /></div><div><b>PostgreSQL</b><span class="highlight caps small">Database</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/mysql.svg" alt="MySQL" /></div><div><b>MySQL</b><span class="highlight caps small">Database</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/docker.svg" alt="Docker" /></div><div><b>Docker</b><span class="highlight caps small">DevOps</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/git.svg" alt="Git" /></div><div><b>Git</b><span class="highlight caps small" data-i18n="tech-versioning">Versionamento</span></div></div>
+        <div class="glow-card tech-card"><div class="icon-box"><img src="imgs/github.svg" alt="GitHub" /></div><div><b>GitHub</b><span class="highlight caps small" data-i18n="tech-github">DevOps / Repositório</span></div></div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects">
+      <div class="section-head">
+        <h2 data-i18n="projects-title">Projetos em <span class="highlight">Destaque</span></h2>
+        <p class="muted" data-i18n="projects-desc">Aplicações completas com arquitetura robusta, segurança e foco em valor prático.</p>
+      </div>
+      <div class="projects">
+
+        <article class="glow-card project-card">
+          <div class="card-top">
+            <span class="pill pill-green caps" data-i18n="p1-badge">Arquitetura Industrial &amp; Gestão de Ativos</span>
+            <a href="https://github.com/Madu-huida/cmm-maintenance-manager" target="_blank" rel="noopener noreferrer" class="pill repo-btn"><img src="imgs/github.svg" alt="" class="ico" /> <span data-i18n="btn-repo">Repositório</span> <img src="imgs/external-link.svg" alt="" class="ico ico-muted" /></a>
+          </div>
+          <h3 class="project-title">CMM – Computerized Maintenance Manager</h3>
+          <p class="project-desc muted" data-i18n="p1-desc">Aplicação web completa para centralização de ativos industriais e prediais com orquestração do ciclo de vida de Ordens de Manutenção preventivas e corretivas.</p>
+          <div class="box-dark highlights">
+            <h4 class="highlight caps" data-i18n="highlights-title">Destaques de Engenharia:</h4>
+            <ul>
+              <li data-i18n="p1-h1">Controle de acesso granular baseado em papéis (RBAC) com autenticação stateless via JWT.</li>
+              <li data-i18n="p1-h2">Modelagem de máquina de estados finita para controle rígido das transições de chamados.</li>
+              <li data-i18n="p1-h3">Integridade referencial ACID com cálculo dinâmico de custos e tempo de inatividade (downtime).</li>
+            </ul>
+          </div>
+          <div class="row"><span class="tag">Java Spring Boot</span><span class="tag">React</span><span class="tag">MySQL</span><span class="tag">JWT</span><span class="tag">JUnit</span></div>
+        </article>
+
+        <article class="glow-card project-card">
+          <div class="card-top">
+            <span class="pill pill-green caps" data-i18n="p2-badge">Comunidades &amp; Governança Multinível</span>
+            <a href="https://github.com/MAGUGI/Foruns" target="_blank" rel="noopener noreferrer" class="pill repo-btn"><img src="imgs/github.svg" alt="" class="ico" /> <span data-i18n="btn-repo">Repositório</span> <img src="imgs/external-link.svg" alt="" class="ico ico-muted" /></a>
+          </div>
+          <h3 class="project-title" data-i18n="p2-title">MAGUGI – Plataforma de Fóruns &amp; Comunidades</h3>
+          <p class="project-desc muted" data-i18n="p2-desc">Plataforma colaborativa com tópicos dinâmicos de discussão, árvores de comentários aninhados e interações em tempo real estruturadas para alta escalabilidade.</p>
+          <div class="box-dark highlights">
+            <h4 class="highlight caps" data-i18n="highlights-title">Destaques de Engenharia:</h4>
+            <ul>
+              <li data-i18n="p2-h1">Sistema hierárquico de governança e moderação multinível com matriz de permissões validada nas rotas da API.</li>
+              <li data-i18n="p2-h2">Persistência orientada a UUID para mitigação de ataques por enumeração (IDOR).</li>
+              <li data-i18n="p2-h3">Arquitetura relacional otimizada para integridade de relacionamentos complexos.</li>
+            </ul>
+          </div>
+          <div class="row"><span class="tag">Java Spring Boot</span><span class="tag">React</span><span class="tag">PostgreSQL</span><span class="tag">REST API</span></div>
+        </article>
+
+        <article class="glow-card project-card">
+          <div class="card-top">
+            <span class="pill pill-green caps" data-i18n="p3-badge">Impacto Social &amp; Comércio Regional</span>
+            <a href="https://github.com/AcheiNaFeira/Achei-na-Feira" target="_blank" rel="noopener noreferrer" class="pill repo-btn"><img src="imgs/github.svg" alt="" class="ico" /> <span data-i18n="btn-repo">Repositório</span> <img src="imgs/external-link.svg" alt="" class="ico ico-muted" /></a>
+          </div>
+          <h3 class="project-title">Achei na Feira</h3>
+          <p class="project-desc muted" data-i18n="p3-desc">Vitrine virtual web responsiva desenvolvida para mitigar a invisibilidade digital do comércio regional e impulsionar a agricultura familiar.</p>
+          <div class="box-dark highlights">
+            <h4 class="highlight caps" data-i18n="highlights-title">Destaques de Engenharia:</h4>
+            <ul>
+              <li data-i18n="p3-h1">Conexão ponta a ponta entre feirantes locais, organizadores de eventos e consumidores finais.</li>
+              <li data-i18n="p3-h2">Interface fluida e acessível focada na usabilidade de feirantes autônomos.</li>
+              <li data-i18n="p3-h3">Integração de catálogo com geolocalização e banco de dados relacional.</li>
+            </ul>
+          </div>
+          <div class="row"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">CSS Moderno</span></div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+      <div class="section-head">
+        <h2 data-i18n="contact-title">Vamos <span class="highlight">Conversar?</span></h2>
+        <p class="muted" data-i18n="contact-desc">Aberta a oportunidades de emprego.</p>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:mariahuida@hotmail.com" class="glow-card contact-card">
+          <div class="icon-box"><img src="imgs/mail.svg" alt="E-mail" /></div>
+          <div><span class="muted caps small" data-i18n="contact-mail">E-mail</span><b>mariahuida@hotmail.com</b></div>
+          <img src="imgs/arrow-up-right.svg" alt="" class="ico ico-muted arrow" />
+        </a>
+        <a href="https://wa.me/5547991080805" target="_blank" rel="noopener noreferrer" class="glow-card contact-card">
+          <div class="icon-box"><img src="imgs/phone.svg" alt="WhatsApp" /></div>
+          <div><span class="muted caps small" data-i18n="contact-phone">WhatsApp / Telefone</span><b>+55 (47) 99108-0805</b></div>
+          <img src="imgs/arrow-up-right.svg" alt="" class="ico ico-muted arrow" />
+        </a>
+        <a href="https://www.linkedin.com/in/maria-huida/" target="_blank" rel="noopener noreferrer" class="glow-card contact-card">
+          <div class="icon-box"><img src="imgs/linkedin.svg" alt="LinkedIn" /></div>
+          <div><span class="muted caps small">LinkedIn</span><b>in/maria-huida</b></div>
+          <img src="imgs/arrow-up-right.svg" alt="" class="ico ico-muted arrow" />
+        </a>
+        <a href="https://github.com/Madu-huida" target="_blank" rel="noopener noreferrer" class="glow-card contact-card">
+          <div class="icon-box"><img src="imgs/github.svg" alt="GitHub" /></div>
+          <div><span class="muted caps small">GitHub</span><b>@Madu-huida</b></div>
+          <img src="imgs/arrow-up-right.svg" alt="" class="ico ico-muted arrow" />
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="muted" data-i18n="footer-text">© Desenvolvido com HTML5, CSS3 e JavaScript.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
