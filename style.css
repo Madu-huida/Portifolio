@@ -314,7 +314,7 @@ main {
 .highlights li::before { content: '▸'; position: absolute; left: 0; color: var(--green); font-weight: bold; }
 
 /* Contato */
-.contact-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
+.contact-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; }
 .contact-card { padding: 1.5rem; display: flex; align-items: center; gap: 1.25rem; }
 .contact-card div:nth-child(2) { flex: 1; word-break: break-all; }
 .contact-card:hover .arrow { transform: translate(2px, -2px); }
